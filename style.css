@@ -1,0 +1,245 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans' !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 941px;
+	margin: 0 auto;
+}
+
+.header-banner {
+	height: 100vh;
+	width: 100%;
+	background-image: url(img/bg.png);
+	background-size: cover;
+}
+
+.header-banner .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+}
+
+.banner-top {
+	margin-top: 41px;
+}
+
+.banner-logo img {
+	width: 101px;
+}
+
+.banner-main {
+	text-align: center;
+	color: #fff;
+}
+
+.banner-title {
+	font-size: 30px;
+	letter-spacing: 5.71px;
+}
+
+.banner-haromi {
+	margin-bottom: 71px;
+}
+
+.banner-haromi p {
+	font-weight: 600;
+	font-size: 11px;
+	color: #fff;
+	letter-spacing: 3.7px;
+}
+
+/* navigation */
+nav {
+    background: white;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    gap: 48px;
+}
+
+.nav_list a {
+    padding: 23px 22px;
+    color: #48555B;
+    display: inline-block;
+    transition: 500ms;
+    width: 40px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    text-align: center;
+}
+
+.nav_list a:hover{
+	color: #00A4E5;
+}
+/* navigation */
+
+/* main start */
+
+.balo-batar{
+	display: flex;
+	justify-content: space-between;
+	width: 940px;
+    margin: 0 auto;
+}
+
+.negir{
+margin: 118px 250px;
+}
+
+#knopka{
+    padding: 15px 25px;
+    background-color: #00A4E5;
+    color: #fbfaf7;
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+    text-align: center;
+  }
+
+.balo-batar p {
+	max-width: 405px;
+	font-size: 11px;
+	line-height: 19px;
+}
+.card {
+	background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+	width: 295px;
+	height: 330px;
+	top: 116px;
+	padding: 38px 23px;
+}
+.card h2 {
+	margin-bottom: 13px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	color: #48555B;
+}
+
+
+.card p {
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: #48555B;
+}
+
+.card img {
+	margin-bottom: 13px;
+}
+
+.cardla{
+	margin-top: 116px;
+	display: flex;
+	justify-content: center;
+	gap: 28px;
+}
+
+
+#knopka{
+    padding: 15px 25px;
+    background-color: #00A4E5;
+    color: #fbfaf7;
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+    text-align: center;	
+  }
+
+
+
+  .footer-banner{
+	background-image: url(img/fucking\ nigga\ polish.png);
+  }
+
+  .footer-banner .banner-main {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	color: #48555B;
+  }
+
+  .footer-banner .banner-main h1{
+	width: 350px;
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.15000000596046448px;
+	text-align: center;
+	margin-bottom: 35px;
+  }
+
+  .registration_content {
+	display: flex;
+	justify-content: space-around;
+	line-height: 80px;
+	
+  }
+
+  .mail {
+	padding: 14px 50px;
+	
+	outline: none;
+	text-align: center;
+  }
+  .registration {
+	background-color: #171819;
+  }
+  .registration_left {
+	h2 {
+		color: white;
+		width: 216px;
+height: 30px;
+top: 5px;
+gap: 0px;
+opacity: 0px;
+
+	}
+  }
+
+  .registration_btn {
+	button {
+		display: inline-block;
+	}
+  }
+
